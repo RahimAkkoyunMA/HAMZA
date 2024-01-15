@@ -21,17 +21,9 @@ public class codewars {
             else return name + " does not play banjo";            
         }
 
-        /*
-         * Given an array of integers your solution should find the smallest integer.
+      
 
-        For example:
-
-        Given [34, 15, 88, 2] your solution will return 2
-        Given [34, -345, -1, 100] your solution will return -345
-        You can assume, for the purpose of this kata, that the supplied array will not be empty.
-         */
-
-         /*
+         
          public static int findSmallestInt(int[] args)
          {
             int speicher;
@@ -50,7 +42,7 @@ public class codewars {
             }
             return speicherZwei;
          }
-         */
+         
         public static int findSmallestInt(int[] args)
         {
             int speicher = args[0];
@@ -65,10 +57,30 @@ public class codewars {
         }
 
     public static void main(String[] args) {
+        
 
     int[] test = new int[]{78,56,232,12,11,43};
     Arrays.sort(test);
     System.out.println(test[0]);
     }
-    
+    public class Kata {
+       
+        public static boolean betterThanAverage(int[] classPoints, int yourPoints) {
+               int menge = classPoints.length;
+               int vergleich = 0;
+               int i = 0; 
+               for(;i > menge; i++);
+               {
+                vergleich = vergleich + classPoints[i];
+                System.out.println(i);
+               }
+               int durchschnitt = vergleich/menge++;
+               if (durchschnitt<yourPoints) 
+               {
+                return true;
+               
+               }
+                else return false;
+        }
+      }
 }
