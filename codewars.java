@@ -102,4 +102,16 @@ import java.util.Arrays;
           return 180 - (angle1 + angle2);
       }
     }
+
+    public static String hoolaHoop(int n){
+      return n>=10 ? "Good work, keep it up." : "keep it up";
+    }
+    
+    public static long[] powersOfTwo(int n){
+      int index[]
+      for(int i = 1; i == n; i++){
+
+      }
+      return new long[0];
+    }
 }
